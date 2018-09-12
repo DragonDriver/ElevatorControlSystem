@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ElevatorControlSystem.srcs/sources_1/new/7seg_decoder.v" \
+"../../../../ElevatorControlSystem.srcs/sources_1/new/clk_div.v" \
+"../../../../ElevatorControlSystem.srcs/sources_1/new/dynamic_display.v" \
+"../../../../ElevatorControlSystem.srcs/sources_1/new/refresh_state.v" \
+"../../../../ElevatorControlSystem.srcs/sources_1/new/run.v" \
+"../../../../ElevatorControlSystem.srcs/sources_1/new/elevator.v" \
+"../../../../ElevatorControlSystem.srcs/sim_1/new/run_cdoc_tb.v" \
+"../../../../ElevatorControlSystem.srcs/sim_1/new/run_co_tb.v" \
+"../../../../ElevatorControlSystem.srcs/sim_1/new/run_cuoc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

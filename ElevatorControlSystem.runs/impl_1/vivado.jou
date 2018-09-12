@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Sep 12 16:06:39 2018
+# Process ID: 6364
+# Current directory: E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.runs/impl_1
+# Command line: vivado.exe -log elevator.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source elevator.tcl -notrace
+# Log file: E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.runs/impl_1/elevator.vdi
+# Journal file: E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source elevator.tcl -notrace

@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Sep 11 09:22:17 2018
+# Process ID: 17608
+# Current directory: E:/Desktop/ElevatorControlSystem
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22312 E:\Desktop\ElevatorControlSystem\ElevatorControlSystem.xpr
+# Log file: E:/Desktop/ElevatorControlSystem/vivado.log
+# Journal file: E:/Desktop/ElevatorControlSystem\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.runs/impl_1/elevator.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.runs/impl_1/elevator.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top run_co_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation

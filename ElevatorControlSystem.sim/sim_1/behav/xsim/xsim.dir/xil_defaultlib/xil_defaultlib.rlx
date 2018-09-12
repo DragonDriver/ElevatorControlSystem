@@ -1,0 +1,17 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/DisplayBCD_tb.v,1536633786,verilog,,,,DisplayBCD_tb,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/run_cdoc_tb.v,1536715688,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/run_co_tb.v,,run_cdoc_tb,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/run_co_tb.v,1536714068,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/run_cuoc_tb.v,,run_co_tb,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/run_cuoc_tb.v,1536714053,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/show_tb.v,,run_cuoc_tb,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/show_tb.v,1536757112,verilog,,,,show_tb,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/7seg_decoder.v,1536753761,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/clk_div.v,,SevenSeg_Decoder,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/Binary2BCD.v,1536627372,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/DisplayBCD_tb.v,,Binary2BCD,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/clk_div.v,1536753684,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/dynamic_display.v,,clk_div,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/dynamic_display.v,1536737844,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/refresh_state.v,,dynamic_display,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/elevator.v,1536721931,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sim_1/new/run_cdoc_tb.v,,elevator,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/refresh_state.v,1536628396,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/run.v,,refresh_state,,,,,,,,
+E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/run.v,1536735828,verilog,,E:/Desktop/ElevatorControlSystem/ElevatorControlSystem.srcs/sources_1/new/elevator.v,,run,,,,,,,,
